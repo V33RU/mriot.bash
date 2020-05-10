@@ -23,20 +23,20 @@ declare -r reset="$(tput sgr0)" bold="$(tput bold)" dim="$(tput dim)" blink="$(t
 
 l[0]="    ${green}╭───────────────────────────────────────────────────────╮"
 l[1]="    ${green}│                                                       │"
-l[2]="    ${green}│${reset}           ${bold}${blue}Veerababu Penugonda / Mr-IoT${reset}           ${green}│"
-l[3]="    ${green}│                                                       │"
-l[4]="    ${green}│${reset}        ${bold}Work:${reset}  v33raiot@hotmail.com                 ${green}│"
-l[5]="    ${green}│${reset}        ${bold}Project:${reset}  IoT-PT - VM Image.                   ${green}│"
+l[2]="    ${green}│${reset}           ${bold}${blue}Veerababu Penugonda / Mr-IoT${reset}                ${green}│"
+l[3]="    ${green}│                                                       │"              
+l[4]="    ${green}│${reset}        ${bold}Work:${reset}  v33raiot@hotmail.com                    ${green}│"
+l[5]="    ${green}│${reset}     ${bold}Project:${reset}  IoT-PT - VM Image.                      ${green}│"
 l[6]="    ${green}│                                                       │"
-l[7]="    ${green}│${reset}     ${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${magenta}v33raiot     ${green}│"
-l[8]="    ${green}│${reset}      ${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}v33ru            ${green}│"
-l[9]="    ${green}│${reset}    ${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}veeraiot       ${green}│"
-l[10]="    ${green}│${reset}         ${bold}Web:${reset}  ${dim}https://${yellow}michaeltd${reset}${dim}.iotpentest.com${reset}          ${green}│"
-l[11]="    ${green}│                                                       │"
-
-l[13]="    ${green}│${reset}        ${bold}Card:${reset}  curl -sL tinyurl.com/mtd-card|sh        ${green}│"
-l[14]="    ${green}│                                                       │"
-l[15]="    ${green}╰───────────────────────────────────────────────────────╯"
+l[7]="    ${green}│${reset}     ${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${magenta}v33raiot    	    ${green}│"
+l[8]="    ${green}│${reset}      ${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}v33ru                ${green}│"
+l[9]="    ${green}│${reset}    ${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}veeraiot        ${green}│"
+l[10]="    ${green}│${reset}         ${bold}Web:${reset}  ${dim}https://${yellow}${reset}${dim}iotpentest.com${reset}                  ${green}│"
+l[12]="    ${green}│${reset}   ${bold}Community:${reset}  ${dim}https://${yellow}${reset}${dim}iotsecurity101.org${reset}              ${green}│"
+l[13]="    ${green}│                                                       │"
+l[14]="    ${green}│${reset}        ${bold}Card:${reset}  curl -sL tinyurl.com/mtd-card|sh        ${green}│"
+l[15]="    ${green}│                                                       │"
+l[16]="    ${green}╰───────────────────────────────────────────────────────╯"
 
 echo
 for i in "${!l[@]}"; do
