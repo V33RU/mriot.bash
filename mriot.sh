@@ -15,11 +15,11 @@
 # │         Web:  https://iotpentest.com                  │ 
 # │   Community:  https://iotsecurity101.org              │
 # │                                                       │
-# │        Card:  curl -sL https://tinyurl.com/ybcq6caj|sh│
+# │        Card:  curl -sL https://raw.githubusercontent.com/V33RU/mriot.bash/master/mriot.sh|sh│
 # │                                                       │
 # ╰───────────────────────────────────────────────────────╯
 # Font attributes, colors, bg colors
-# declare -r reset="$(tput sgr0)" bold="$(tput bold)" dim="$(tput dim)" blink="$(tput blink)" underline="$(tput smul)" end_underline="$(tput rmul)" reverse="$(tput rev)" hidden="$(tput invis)" black="$(tput setaf 0)" red="$(tput setaf 1)" green="$(tput setaf 2)" yellow="$(tput setaf 3)" blue="$(tput setaf 4)" magenta="$(tput setaf 5)" cyan="$(tput setaf 6)" white="$(tput setaf 7)" default="$(tput setaf 9)" bg_black="$(tput setab 0)" bg_red="$(tput setab 1)" bg_green="$(tput setab 2)" bg_yellow="$(tput setab 3)" bg_blue="$(tput setab 4)" bg_magenta="$(tput setab 5)" bg_cyan="$(tput setab 6)" bg_white="$(tput setab 7)" bg_default="$(tput setab 9)"
+declare -r reset="$(tput sgr0)" bold="$(tput bold)" dim="$(tput dim)" blink="$(tput blink)" underline="$(tput smul)" end_underline="$(tput rmul)" reverse="$(tput rev)" hidden="$(tput invis)" black="$(tput setaf 0)" red="$(tput setaf 1)" green="$(tput setaf 2)" yellow="$(tput setaf 3)" blue="$(tput setaf 4)" magenta="$(tput setaf 5)" cyan="$(tput setaf 6)" white="$(tput setaf 7)" default="$(tput setaf 9)" bg_black="$(tput setab 0)" bg_red="$(tput setab 1)" bg_green="$(tput setab 2)" bg_yellow="$(tput setab 3)" bg_blue="$(tput setab 4)" bg_magenta="$(tput setab 5)" bg_cyan="$(tput setab 6)" bg_white="$(tput setab 7)" bg_default="$(tput setab 9)"
 
 l[0]="    ${green}╭───────────────────────────────────────────────────────╮"
 l[1]="    ${green}│                                                       │"
@@ -34,7 +34,7 @@ l[9]="    ${green}│${reset}    ${bold}LinkedIn:${reset}  ${dim}https://linkedi
 l[10]="    ${green}│${reset}         ${bold}Web:${reset}  ${dim}https://${yellow}${reset}${dim}iotpentest.com${reset}                  ${green}│"
 l[12]="    ${green}│${reset}   ${bold}Community:${reset}  ${dim}https://${yellow}${reset}${dim}iotsecurity101.org${reset}              ${green}│"
 l[13]="    ${green}│                                                       │"
-l[14]="    ${green}│${reset}        ${bold}Card:${reset}  curl -sL tinyurl.com/mtd-card|sh        ${green}│"
+l[14]="    ${green}│${reset}        ${bold}Card:${reset}  curl -sL https://raw.githubusercontent.com/V33RU/mriot.bash/master/mriot.sh|sh        ${green}│"
 l[15]="    ${green}│                                                       │"
 l[16]="    ${green}╰───────────────────────────────────────────────────────╯"
 
