@@ -9,7 +9,7 @@
 # │        Work:  v33raiot@hotmail.com                    │
 # │     Project:  IoT-PT - VM Image.                      │
 # │                                                       │
-# │     Twitter:  https://twitter.com/v33riot             │     				                  │
+# │     Twitter:  https://twitter.com/v33riot             │     				                 
 # │      GitHub:  https://github.com/v33ru                │ 
 # │    LinkedIn:  https://linkedin.com/in/veeraiot        │
 # │         Web:  https://iotpentest.com                  │ 
@@ -21,21 +21,21 @@
 
 
 
-l[0]="    ╭───────────────────────────────────────────────────────╮"
-l[1]="    │                                                       │"
-l[2]="    │           Veerababu Penugonda / Mr-IoT                │"
-l[3]="    │                                                       │"              
-l[4]="    │        Work:  v33raiot@hotmail.com                    │"
-l[5]="    │     Project:  IoT-PT - VM Image.                      │"
-l[6]="    │                                                       │"
-l[7]="    │     Twitter:  https://twitter.com/v33raiot            │"
-l[8]="    │      GitHub:  https://github.com/v33ru                │"
-l[9]="    │    LinkedIn:  https://linkedin.com/in/veeraiot        │"
-l[10]="    │         Web:  https://iotpentest.com                  │"
-l[12]="    │   Community:  https://iotsecurity101.org              │"
-l[13]="    │                                                       │"
-l[15]="    │                                                       │"
-l[16]="    ╰───────────────────────────────────────────────────────╯"
+echo "    ╭───────────────────────────────────────────────────────╮"
+echo "    │                                                       │"
+echo "    │           Veerababu Penugonda / Mr-IoT                │"
+echo "    │                                                       │"              
+echo "    │        Work:  v33raiot@hotmail.com                    │"
+echo "    │     Project:  IoT-PT - VM Image.                      │"
+echo "    │                                                       │"
+echo "    │     Twitter:  https://twitter.com/v33raiot            │"
+echo "    │      GitHub:  https://github.com/v33ru                │"
+echo "    │    LinkedIn:  https://linkedin.com/in/veeraiot        │"
+echo "    │         Web:  https://iotpentest.com                  │"
+echo "    │   Community:  https://iotsecurity101.org 	             │"
+echo "    │                                                       │"
+echo "    │                                                       │"
+echo "    ╰───────────────────────────────────────────────────────╯"
 
 echo
 for i in "${!l[@]}"; do
