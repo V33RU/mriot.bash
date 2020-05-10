@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # https://tinyurl.com/create.php?source=create&url=https://github.com/V33RU/mriot.bash/blob/master/mriot.sh&alias=mtd-card
 # Write a nice business card on the terminal.
