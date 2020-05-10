@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #
-# https://tinyurl.com/create.php?source=create&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmichaeltd%2Fdots%2Fmaster%2Fdot.files%2Fbin%2Fmichaeltd.bash&alias=mtd-card
+# https://tinyurl.com/create.php?source=create&url=https://github.com/V33RU/mriot.bash/blob/master/mriot.sh&alias=mtd-card
 # Write a nice business card on the terminal.
 # ╭───────────────────────────────────────────────────────╮
 # │                                                       │
 # │           Veerababu Penugonda / Mr-IoT                │
 # │                                                       │
 # │        Work:  v33raiot@hotmail.com                    │
-# │        FOSS:  IoT-PT - VM Image.                      │
+# │     Project:  IoT-PT - VM Image.                      │
 # │                                                       │
 # │     Twitter:  https://twitter.com/v33riot             │     				                  │
 # │      GitHub:  https://github.com/v33ru                │ 
@@ -15,7 +15,7 @@
 # │         Web:  https://iotpentest.com                  │ 
 # │   Community:  https://iotsecurity101.org              │
 # │                                                       │
-# │        Card:  curl -sL tinyurl.com/mtd-card|sh        │
+# │        Card:  curl -sL https://tinyurl.com/ybcq6caj|sh│
 # │                                                       │
 # ╰───────────────────────────────────────────────────────╯
 # Font attributes, colors, bg colors
@@ -23,17 +23,17 @@ declare -r reset="$(tput sgr0)" bold="$(tput bold)" dim="$(tput dim)" blink="$(t
 
 l[0]="    ${green}╭───────────────────────────────────────────────────────╮"
 l[1]="    ${green}│                                                       │"
-l[2]="    ${green}│${reset}           ${bold}${blue}Michael Tsouchlarakis / michaeltd${reset}           ${green}│"
+l[2]="    ${green}│${reset}           ${bold}${blue}Veerababu Penugonda / Mr-IoT${reset}           ${green}│"
 l[3]="    ${green}│                                                       │"
-l[4]="    ${green}│${reset}        ${bold}Work:${reset}  tsouchlarakis@gmail.com                 ${green}│"
-l[5]="    ${green}│${reset}        ${bold}FOSS:${reset}  Gentoo Linux avocado.                   ${green}│"
+l[4]="    ${green}│${reset}        ${bold}Work:${reset}  v33raiot@hotmail.com                 ${green}│"
+l[5]="    ${green}│${reset}        ${bold}Project:${reset}  IoT-PT - VM Image.                   ${green}│"
 l[6]="    ${green}│                                                       │"
-l[7]="    ${green}│${reset}     ${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${magenta}tsouchlarakismd     ${green}│"
-l[8]="    ${green}│${reset}         ${bold}npm:${reset}  ${dim}https://npmjs.com/${reset}~${red}michaeltd            ${green}│"
-l[9]="    ${green}│${reset}      ${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}michaeltd            ${green}│"
-l[10]="    ${green}│${reset}    ${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}michaeltd       ${green}│"
-l[11]="    ${green}│${reset}         ${bold}Web:${reset}  ${dim}https://${yellow}michaeltd${reset}${dim}.netlify.com/${reset}          ${green}│"
-l[12]="    ${green}│                                                       │"
+l[7]="    ${green}│${reset}     ${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${magenta}v33raiot     ${green}│"
+l[8]="    ${green}│${reset}      ${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}v33ru            ${green}│"
+l[9]="    ${green}│${reset}    ${bold}LinkedIn:${reset}  ${dim}https://linkedin.com/in/${reset}${blue}veeraiot       ${green}│"
+l[10]="    ${green}│${reset}         ${bold}Web:${reset}  ${dim}https://${yellow}michaeltd${reset}${dim}.iotpentest.com${reset}          ${green}│"
+l[11]="    ${green}│                                                       │"
+
 l[13]="    ${green}│${reset}        ${bold}Card:${reset}  curl -sL tinyurl.com/mtd-card|sh        ${green}│"
 l[14]="    ${green}│                                                       │"
 l[15]="    ${green}╰───────────────────────────────────────────────────────╯"
