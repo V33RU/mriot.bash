@@ -32,13 +32,7 @@ echo "    │     Twitter:  https://twitter.com/v33raiot            │"
 echo "    │      GitHub:  https://github.com/v33ru                │"
 echo "    │    LinkedIn:  https://linkedin.com/in/veeraiot        │"
 echo "    │         Web:  https://iotpentest.com                  │"
-echo "    │   Community:  https://iotsecurity101.org 	             │"
+echo "    │   Community:  https://iotsecurity101.org 	            │"
 echo "    │                                                       │"
 echo "    │                                                       │"
 echo "    ╰───────────────────────────────────────────────────────╯"
-
-echo
-for i in "${!l[@]}"; do
-    echo "${l[i]}"
-done
-echo
